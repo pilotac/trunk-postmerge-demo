@@ -14,6 +14,7 @@ stages:
     deploy_target: dev
     required_checks:
       - test
+      - LaneSync configuration
     required_reviewers:
       min_approvals: 0
   testing:
